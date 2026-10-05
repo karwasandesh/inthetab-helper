@@ -35,7 +35,7 @@ flowchart LR
 2. Open **InTheTab Helper** from Applications.
 3. The app isn't signed with an Apple Developer certificate yet, so the first time macOS says it *"could not verify"* the app. Click **Done** (not *Move to Bin*).
 4. Open **System Settings → Privacy & Security**, scroll down to the message about InTheTab Helper, and click **Open Anyway**. Confirm with your password or Touch ID.
-5. The InTheTab downloader page opens in your browser. On first run the helper downloads yt-dlp and ffmpeg (about 170 MB), which takes a minute.
+5. The first time, the helper downloads Node.js (about 30 MB), then the InTheTab downloader page opens in your browser while it fetches yt-dlp and ffmpeg (about 170 MB). In all it takes a minute or two.
 
 You only do steps 3–4 once. The helper runs in the background with no Dock icon. To stop it, click **Quit helper** on the downloader page.
 
@@ -66,7 +66,7 @@ Chrome and Edge may ask once whether inthetab.com may *"access other apps and se
   - yt-dlp: [github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp/releases)
   - ffmpeg for Mac: [ffmpeg.martin-riedl.de](https://ffmpeg.martin-riedl.de)
   - ffmpeg for Windows: [github.com/yt-dlp/FFmpeg-Builds](https://github.com/yt-dlp/FFmpeg-Builds/releases)
-  - Node.js (Windows only): [nodejs.org](https://nodejs.org/dist/)
+  - Node.js: [nodejs.org](https://nodejs.org/dist/)
 - **Self-updating.** YouTube changes often, so the helper runs `yt-dlp -U` each time it starts to pick up fixes.
 - Each release lists SHA-256 checksums for the installers in `SHA256SUMS.txt`.
 

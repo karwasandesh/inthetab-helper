@@ -4,7 +4,7 @@
 
 ### Node.js
 
-`InTheTab-Helper.dmg` and `InTheTab-Helper.exe` contain the unmodified official [Node.js](https://nodejs.org) runtime, under the MIT license and the licenses of its bundled components (full text below).
+`InTheTab-Helper.exe` contains the unmodified official [Node.js](https://nodejs.org) runtime, under the MIT license and the licenses of its bundled components (full text below). On a Mac it is downloaded on first run instead (see below).
 
 ## Downloaded on first run, not shipped in the installers
 
@@ -14,7 +14,7 @@ The helper fetches these from their official sources onto your computer. They ar
 |---|---|---|
 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Unlicense (public domain) | [Releases](https://github.com/yt-dlp/yt-dlp/releases) |
 | [FFmpeg](https://ffmpeg.org) (ffmpeg, ffprobe) | GPL-2.0-or-later for these builds ([legal](https://ffmpeg.org/legal.html)) | Mac: [ffmpeg.martin-riedl.de](https://ffmpeg.martin-riedl.de) · Windows: [yt-dlp/FFmpeg-Builds](https://github.com/yt-dlp/FFmpeg-Builds) |
-| [Node.js](https://nodejs.org) (Windows only, used by yt-dlp) | MIT and bundled licenses, below | [nodejs.org/dist](https://nodejs.org/dist/) |
+| [Node.js](https://nodejs.org) (on a Mac, runs the helper; on Windows, used by yt-dlp) | MIT and bundled licenses, below | [nodejs.org/dist](https://nodejs.org/dist/) |
 
 ---
 
